@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @AliKooti
 - 👀 I’m interested in Software Development
-- 🌱 I’m currently learning Python
+- 🌱 I’m continuously learning Python
 
 <!---
 AliKooti/AliKooti is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
