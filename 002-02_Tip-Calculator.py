@@ -5,8 +5,10 @@ Format the result to 2 decimal places = 33.60
 """
 print("Welcome to the tip calculator.")
 bill = float(input("What is your total bill? €"))
-tip_percentage = int(input("What percentage tip would you like to give? 10, 12 or 15? "))
+tip = int(input("What percentage tip would you like to give? 10, 12 or 15? "))
 people = int(input("How many people to split the bill? "))
 
-pay_person = round((bill / people) * (1+(tip_percentage/100)),2)
+total_bill = tip/100*bill + bill
+pay_person = round(total_bill/people,2)
+pay_person = "{:.2f}".format(pay_person)
 print(f"Each person should pay: €{pay_person}")
