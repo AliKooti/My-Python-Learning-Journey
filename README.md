@@ -1,4 +1,3 @@
-- 👋 Hi, I’m @AliKooti
 - This is my Python Learning Journey repository.
 
 <!---
